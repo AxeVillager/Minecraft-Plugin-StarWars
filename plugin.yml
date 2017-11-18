@@ -1,0 +1,38 @@
+name: StarWars
+version: 0.1.2
+main: com.axevillager.starwars.Main
+author: Axe_Villager
+website:
+description: A plugin for the Star Wars game mode, inspired by the classic game 'Star Wars Battlefront II'.
+
+commands:
+  toggleTeamChat:
+    usage: /toggleTeamChat
+    aliases: [t, ttc, teamchat]
+    description: Toggle the team chat on or off.
+  class:
+    usage: /class <name of class>
+    aliases: [kit]
+    description: Select a class.
+  changeTeam:
+    usage: /changeTeam
+    aliases: [ct, sw, switch, change]
+    description: Attempt to change what team you are on.
+  respawn:
+    usage: /respawn
+    aliases: [re, spawn]
+    description: Respawn.
+
+permissions:
+  starwars.toggleteamchat:
+    default: true
+    description: Allows you to toggle the team chat on and off.
+  starwars.class:
+    default: true
+    description: Allows you to select a class.
+  starwars.changeteam:
+    default: true
+    description: Allows you to attempt to change what team you are on.
+  starwars.respawn:
+    default: true
+    description: Allows you to respawn.
